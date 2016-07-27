@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Resistance</string>
+
+    <string-array name="warriorSpecies">
+        <item>Select Species of Warrior</item>
+        <item>Human</item>
+        <item>Mammalian</item>
+        <item>Reptilian</item>
+        <item>Avian</item>
+        <item>Craniopod</item>
+        <item>Droid</item>
+        <item>Humanoid</item>
+    </string-array>
+
+    <string-array name="lastplanet">
+        <item>Select last Planet</item>
+        <item>Alderaan</item>
+        <item>Bespin</item>
+        <item>Dagobah</item>
+        <item>Endor</item>
+        <item>Geonosis</item>
+        <item>Hoth</item>
+        <item>Naboo</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender of Warrior</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Machine</item>
+    </string-array>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ADD_WAR">Add Warrior</string>
+    <string name="DIS_WAR">Display Warrior</string>
+    <string name="EnterWARNAME">WARRIOR Name</string>
+    <string name="save_info">Save</string>
+    <string name="war1_name">Large Text</string>
+    <string name="Home">Home</string>
+    <string name="title_activity_display">Display</string>
+    <string name="show_detail">Show Detail</string>
+    <string name="delete">Delete</string>
+    <string name="list">Large Text</string>
+    <string name="title_activity_display_warrior_list">Display_warriorLIST</string>
+    <string name="title_activity_war_info_display">war_infoDisplay</string>
+    <string name="warNAME">Large Text</string>
+    <string name="warName">warNAME</string>
+    <string name="name_LIST">Large Text</string>
+    <string name="white">Light side</string>
+    <string name="dark">Black side</string>
+    <string name="alliance">Alliance</string>
+    <string name="allian">Alliance :</string>
+    <string name="a">Large Text</string>
+    <string name="b">Alliance :</string>
+    <string name="Species">Species</string>
+    <string name="s">Species</string>
+    <string name="sp">Large Text</string>
+    <string name="last">Last Presence on:</string>
+    <string name="pr">Last planet</string>
+    <string name="planet">text</string>
+    <string name="planetu">Planet</string>
+    <string name="date_button_set">set</string>
+    <string name="lastspotted">Last Spotted On</string>
+    <string name="spon">Last Spotted On</string>
+    <string name="datedis">Click </string>
+    <string name="gen">Gender</string>
+    <string name="der">Gender</string>
+    <string name="GenDis">Large Text</string>
+    <string name="title_activity_warrior__list">warrior_LIST</string>
+    <string name="selectpic">Select Photo</string>
+    <string name="listwarname">Large Text</string>
+    <string name="listwaraaiance">Large Text</string>
+    <string name="lastspot">Last Spotted On: Click button to set that Time</string>
+    <string name="gend">Machine</string>
+
+</resources>

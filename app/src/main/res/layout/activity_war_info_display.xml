@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.pardeep.resistance.war_infoDisplay"
+    android:background="#010101"
+    android:id="@+id/war_info_display">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/warNAME"
+        android:textColor="#ffffff"
+        android:id="@+id/warNameDISPLAY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/a"
+        android:id="@+id/warAllianceDISPLAY"
+        android:textColor="#ffffff"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/warDateDISPLAY"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10"
+        android:textSize="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/b"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/warAllianceDISPLAY"
+        android:layout_toRightOf="@+id/warAllianceDISPLAY"
+        android:layout_toEndOf="@+id/warAllianceDISPLAY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/s"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/warSpeciesDISPLAY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sp"
+        android:id="@+id/warSpeciesDISPLAY"
+        android:textColor="#ffffff"
+        android:layout_marginTop="55dp"
+        android:gravity="bottom|center_vertical|fill_vertical|center_horizontal"
+        android:textSize="30dp"
+        android:layout_below="@+id/warNameDISPLAY"
+        android:layout_alignLeft="@+id/warGenderDISPLAY"
+        android:layout_alignStart="@+id/warGenderDISPLAY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pr"
+        android:id="@+id/textView6"
+        android:textColor="#ffffff"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/warGenderDISPLAY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/warPlanetDISPLAY"
+        android:text="@string/planet"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:gravity="bottom|center_vertical|fill_vertical|center_horizontal"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/spon"
+        android:id="@+id/textView8"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/warPlanetDISPLAY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/datedis"
+        android:id="@+id/warDateDISPLAY"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignLeft="@+id/warPlanetDISPLAY"
+        android:layout_alignStart="@+id/warPlanetDISPLAY"
+        android:gravity="bottom|center_vertical|fill_vertical|center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/der"
+        android:id="@+id/textView10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/warSpeciesDISPLAY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/GenDis"
+        android:id="@+id/warGenderDISPLAY"
+        android:textColor="#ffffff"
+        android:gravity="bottom|center_vertical|fill_vertical|center_horizontal"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
